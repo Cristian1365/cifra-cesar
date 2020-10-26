@@ -1,0 +1,79 @@
+<!Doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title> Cifra de Cesar</title>
+    <meta name="viewport" content="width= device-width, user-scalable=0"/>
+    <link rel="stylesheet" href="cifra.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="container-models">
+    <!-- MODELOS PARA CLONAR-->
+    <li class="letras-descrip"> .. </li>
+    <li class="letras-crip"> aaa</li>
+    <!-- MODELOS PARA CLONAR-->
+</div>
+    
+    <div class="area">
+        <div class="container-alfabeto-base">
+           <h1> Escolha a sua chave</h1>
+           <div class="alfabeto-base">
+               <ul class="alfabeto-1">
+                   <!--AREA DE EXIBIÇAO DO ALFABETO BASE -->
+               </ul>
+
+           </div>
+        </div>
+        <div class="container-alfabeto-cifra">
+            <h1> Alfabeto Cifrado</h1>
+            <div class="alfabeto-cifra">
+                <ul class="alfabeto">
+                    <!--AREA DE EXIBIÇAO DO ALFABETO CRIPTOGRAFADO -->
+           
+                </ul>              
+            </div>
+
+        </div>
+        <div class="container-resultado">
+            <div class="input">
+                <h1> Mensagem </h1>
+                <!-- INPUT DA MENSAGEM-->
+                <input type="text" name="mensagem-cod" placeholder="Digite sua mensagem codificada aki" id="input-cod" autofocus/>
+                <!-- INPUT DA MENSAGEM-->
+
+                <!--INPUTS DA OPÇAO CRIPTOGRAFAR OU DESCRIPTOGRAFAR-->
+                <div class="container-radio">
+                     <div class="radio-1">
+                        <input  type="radio" name="opt-mensagem" id="opçao"/> decodificar
+                    </div>
+                    <div class="radio-2">
+               
+                        <input type="radio" name="opt-mensagem" id="opçao"autofocus/> codificar
+                    </div>
+                </div>
+                <!--INPUTS DA OPÇAO CRIPTOGRAFAR OU DESCRIPTOGRAFAR-->
+                
+                <!-- BOTAO DE EVENTO-->
+                <div class="button">
+                    <button>
+                        Resultado
+                    </button>
+                </div>
+                <!-- BOTAO DE EVENTO-->
+
+            </div>
+            <div class="output">
+                <h1> Resultado</h1>
+                <div class="mensagem-resultado">
+                 <!-- AREA DE EXIBIÇAO DA MENSAGEM-->
+                </div>
+                
+                
+                
+            </div>
+
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
