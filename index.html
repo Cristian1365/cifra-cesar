@@ -1,0 +1,56 @@
+<!Doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title> Cifra de Cesar</title>
+    <meta name="viewport" content="width= device-width, user-scalable=0"/>
+    <link rel="stylesheet" href="solocfra.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+        <div class="container-resultado">
+            <div class="input">
+                <h1> Sua chave</h1>
+                <input type="number" name="chave" placeholder="Chave para criptografar" id="chave" />
+                
+                <h1> Mensagem </h1>
+                <!-- INPUT DA MENSAGEM-->
+                <input type="text" name="mensagem-cod" placeholder="Digite sua mensagem codificada aqui" id="input-cod" autofocus/>
+                <!-- INPUT DA MENSAGEM-->
+
+                <!--INPUTS DA OPÇAO CRIPTOGRAFAR OU DESCRIPTOGRAFAR-->
+                <div class="container-radio">
+                     <div class="radio-1">
+                        <input  type="radio" name="opt-mensagem" id="opçao"/> decodificar
+                    </div>
+                    <div class="radio-2">
+               
+                        <input type="radio" name="opt-mensagem" id="opçao"autofocus/> codificar
+                    </div>
+                </div>
+                <!--INPUTS DA OPÇAO CRIPTOGRAFAR OU DESCRIPTOGRAFAR-->
+                
+                <!-- BOTAO DE EVENTO-->
+                <div class="button">
+                    <button>
+                        Resultado
+                    </button>
+                </div>
+                <!-- BOTAO DE EVENTO-->
+
+            </div>
+            <div class="output">
+                <h1> Resultado</h1>
+                <div class="mensagem-resultado">
+                 <!-- AREA DE EXIBIÇAO DA MENSAGEM-->
+                </div>
+                
+                
+                
+            </div>
+
+        </div>
+    </div>
+    <script src="solojavascript.js"></script>
+</body>
